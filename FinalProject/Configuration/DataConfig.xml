@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+
+    <!-- TimeOut -->
+    <Timeout>10</Timeout>
+
+    <!-- General -->
+    <PlatformName>web</PlatformName> <!-- web, mobile, api -->
+
+    <!-- Web -->
+    <BrowserName>firefox</BrowserName>
+    <url>https://www.asos.com</url>  <!-- https://my.asos.com/identity/login -->
+    <ImageRepo>/Users/bargelman/Automation/javaAutomationProjects/FinalProject/ImageRepository/</ImageRepo>
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/items.csv</DDTFile>
+
+</Enviroment>
